@@ -1,0 +1,84 @@
+html{
+    --text-color: rgb(233, 190, 17);
+}
+
+h1
+{
+    width: 600px;
+    padding-inline: 2em;
+    height: 100px;
+    padding-block: 2rem 1.5rem;
+    padding: 20px 0 15px;
+    padding inline: 0;
+    padding block: 20px 15px;
+    padding-inline: 0;
+    padding-block-start: 50px;
+    padding-top: 70px;
+    border: 1.2rem solid;
+    border-block: 1.5rem double crimson;
+    border-inline-end-style: dotted;
+    margin-block: 30px;
+    color: red;
+    color: #abccdebb;
+    color: #ff00ff;
+    color: rgb(23, 65, 1);
+    background-color: #f0e68c;
+    color: var(--text-color);
+}
+
+section:first-of-type{
+    max-height: 200px;
+    font-size: 10px;
+    overflow: auto;
+    background-image: linear-gradient(-45deg, green 40%,blue 50%);
+    background-image: linear-gradient(90deg, violet 35%, crimson 35%, crimson 80%, fuchsia 80%);
+    background-image: linear-gradient(to bottom right,purple 50%, var(--text-color) 50%);
+    background-image: repeating-linear-gradient(to right, blue 12%, green 15%);
+}
+
+    section:first-of-type p {
+        font-size: 1.5rem;
+    }
+
+
+section:nth-of-type(2){
+    background-image: radial-gradient(gray, pink);
+    background-image: radial-gradient(gray 30%, pink 30%);
+    background-image: radial-gradient(circle, gray 10%, pink 10%, pink 25%, var(--text-color)25%);
+    background-image: repeating-radial-gradient(circle, tomato 10%, #fff 12%);
+}
+
+section:nth-of-type(3){
+    background-image: conic-gradient(
+        fuchsia 15%,
+        #09cc66 15%,
+        #09cc66 30%,
+        #8b55ee 30%,
+        #8b55ee 50%,
+        #c7ee99 50%,
+        #c7ee99 65%
+        tomato 65%
+        tomato 85%
+        gold 85%
+        );
+}
+section:last-of-type :last-child{
+    color: transparent;
+    background-image: conic-gradient(
+        fuchsia 15%,
+        #09cc66 15%,
+        #09cc66 30%,
+        #8b55ee 30%,
+        #8b55ee 50%,
+        #c7ee99 50%
+        #c7ee99 65%
+        tomato 65%
+        tomato 85%
+        gold 85%
+
+
+    );
+}
+
+
+
